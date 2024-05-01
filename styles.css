@@ -1,0 +1,65 @@
+/* Dark theme styles */
+.dark-theme {
+    background-color: #1c1c1c;
+    color: #d4d4d4;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    overflow-y: auto;
+}
+
+.dark-theme .chat-log {
+    margin-bottom: 10px;
+}
+
+.dark-theme .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dark-theme .received {
+    background-color: #2e2e2e;
+    color: #d4d4d4;
+    align-self: flex-start;
+}
+
+.dark-theme .sent {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.dark-theme .chat-input {
+    margin-bottom: 10px;
+    background-color: #2e2e2e;
+    color: #d4d4d4;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dark-theme .chat-send {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.dark-theme .chat-send:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+/* Positioning the send button */
+.chat-send {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    z-index: 2;
+}
+
+/* Adjust the input field to accommodate the send button */
+.chat-input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-right: 45px; /* Adjust as needed */
+}
