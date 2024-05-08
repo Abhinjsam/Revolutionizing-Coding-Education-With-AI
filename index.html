@@ -138,7 +138,7 @@
   </div>
 </body>
 <script>
-  var editor=Codemirror.fromTextArea(document.getElementById("editor"),{
+  var editor=codemirror.fromTextArea(document.getElementById("editor"),{
     mode:"text/x-python",
     theme:"3024-night",
     lineNumbers:true,
@@ -153,7 +153,7 @@
           editor.setOption("mode","text/x-python")
       }
   })
-  var editor1=Codemirror.fromTextArea(document.getElementById("editor1"),{
+  var editor1=codemirror.fromTextArea(document.getElementById("editor1"),{
       mode:"text/x-python",
       theme:"3024-night",
       lineNumbers:true,
